@@ -102,4 +102,11 @@ class ProductController extends Controller
             echo "somthing is going wrong";
         }
     }
+
+    public function new()
+    {
+        return view('products.new');
+
+    }
+
 }
